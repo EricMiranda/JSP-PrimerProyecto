@@ -1,0 +1,307 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 15-nov-2016, 14:32:49
+    Author     : Cheto_2
+*/
+/*
+TITULO azul : #0000a7 
+Letra :  font-family: 'Roboto';
+
+*/
+body{
+    background-image: url("../Imagenes/Fondo01.jpg") ;
+    background-size: 100%;
+    margin: 0px;
+    font-family: 'Roboto' !important;
+}
+
+#degradado{
+    min-width: 300px;
+    min-height:  500px;
+    margin-bottom:  0px !important;
+    
+    margin-top: 13.9%;
+    background: -webkit-gradient(linear, 0% 0%, 0% 110%, from(rgba(0,0,0,0.01)), to(#000));
+}
+
+#CerrarSesion{
+    margin-right: 0px;
+    margin-top: 0px;
+    float: right;
+}
+
+/*TUTLO*/
+h1,h4{
+    text-align: center;
+    color: #0000a7;
+    font-family: 'Roboto';
+}
+h1{
+    font-weight: bold;
+}
+#divTitulo{
+    display: inline-block;
+    /*margin-left: 40%;
+    background: radial-gradient(#fff 30%,rgba(0,0,0,0.01)70%);*/
+    width: 100%;
+    background: white;
+    background: -webkit-gradient(linear, 0% 0%, 0% 110%, from(white), to(transparent));
+}
+/*DIV DE INICIO CON CONVOCATORIA Y REGISTRAR*/
+.DivInicial{
+    width: 45%;
+   
+    height: 200px;
+    position: relative;
+    background: #a05d18;
+    opacity: 0.9;
+    padding-top: 60px;
+    padding-left: 5%;
+    border-radius: 15px;
+    border: 2px #94703d solid;
+    color: white;
+    font-family: 'Roboto';
+    font-size: 20px;
+    float: right;
+    margin-right: 25.5%;
+}
+.DivInicial a {
+    margin-left: 45px;
+    margin-top: 15px;
+}
+
+#convocatoria{
+    margin-top: 100px;
+    margin-bottom: 0px;
+    display: inline-block;
+}
+
+#login{
+    margin-top: 40px;
+    margin-right: 25.5%;
+}
+
+/*MENU LATERAL*/
+.Menu{
+    background: black;
+    display: inline-block;
+    margin-left: 0px;
+    float: left;
+    background: linear-gradient(to right, #a05d18 , transparent);
+    height: 300px;
+    min-width: 15%;
+    color: black;
+    font-family: 'Roboto';
+    font-size: 15px;
+}
+.Menu a {
+    color: black;
+    font-family: 'Roboto';
+    font-size: 15px;
+}
+
+/*LOGIN*/
+#loginTitulo{
+    background-color: #a05d18;
+    font-family: 'Roboto';
+    color: white;
+    margin-top: 8%;
+}
+#loginTitulo h1{
+    color: black;
+}
+
+.formularioLogin{
+    background: whitesmoke;
+    padding-top: 2%;
+    padding-left: 35%;
+    padding-bottom: 2%;
+}
+
+.btnFormulario{
+    margin: 10px;
+}
+
+.btnFormulario input, a{
+    margin-left: 45px;
+}
+
+.formularioLogin p {
+    margin-right: 12px;
+    text-align: right;
+}
+#registrarse{
+    margin-right: 10px;
+    float: right;
+}
+
+/*NUEVO PAPER*/
+
+.formularioNewPaper{
+    background: whitesmoke;
+    padding-top: 2%;
+    padding-left: 12%;
+    padding-bottom: 2%;
+}
+.formularioNewPaper p{
+    margin-right: 12px;
+    text-align: right;
+}
+
+.formularioNewPaper tr{
+    border: 20px whitesmoke solid;
+}
+.formularioNewPaper input{
+    min-width: 174px;
+}
+.formularioNewPaper select{
+    min-width: 174px;
+}
+
+
+.btnNewPaper input, a{
+    margin-left: 45px;
+}
+
+#paperTitulo{
+    margin-top: 7%;
+    background: #a71a1a;
+}
+
+#paperTitulo h1{
+    color: black;
+}
+
+.btnNewPaper a{
+    margin-left: 150px;
+}
+.btnNewPaper input{
+    width: 90px !important;
+}
+.btnNewPaper{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.contenedorNuevoPaper{
+    width: 600px;
+}
+
+/*MANEJO DE ERROR*/
+
+.anuncioError h1{
+    font-family: 'Roboto';
+    font-size: 25px;
+    background: red;
+    color: black;
+}
+
+/*ALTA CONGRESO*/
+
+.descripcion{
+    max-width: 300px;
+    max-height:100px;
+    height:100px;
+    width: 300px
+}
+
+#congresoTitulo{
+    background-color: #030367;
+    margin-top: 5%;
+}
+
+#congresoTitulo h1 {
+    color: white;
+}
+
+.btnCongreso a{
+    margin-left: 100px;
+}
+
+.btnCongreso input{
+    width: 90px;
+    margin-left: 40px;
+}
+
+.btnCongreso input{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+/*REPORTES*/
+
+/*LISTADO CONGRESOS*/
+.ListadoCongresos {
+    background:  #fffcf2;
+    display: inline-block;
+    width: 560px;
+    padding-left: 7%;
+    padding-bottom: 2%;
+    padding-top: 2%;
+    border: 1px solid black;
+}
+
+.ReporteTitulo{
+    background-color: rgba(61, 63, 68, 0.85);
+    margin-top: 8%;
+    margin-bottom: 5px;
+}
+
+.ReporteTitulo h1{
+    color: white;
+    font-family: 'Roboto';
+}
+
+#btnVolver{
+    font-size: 20px;
+    margin-left: 48%;
+}
+
+/*CONGRESO MAS LARGO*/
+#congresoMasLargo{
+    width: 100%;
+    padding-left: 35%;
+}
+
+/*TOTAL VIATICOS*/
+
+#totalViaticos{
+    width: 100%;
+    padding-left: 35%;
+}
+#totalViaticos p{
+    font-size: 20px;
+}
+
+/*MODIFICAR COGNRESOS*/
+
+.ListadoCongresosModif{
+    background:  #fffcf2;
+    padding-left: 7%;
+    padding-bottom: 2%;
+    padding-top: 2%;
+    border: 1px solid black;
+    padding-left: 30%;
+}
+
+/*RESULTADOS ALTA*/
+
+.resultadoAlta{
+    margin-left: 39%;
+    margin-top: 10%;
+    background: whitesmoke;
+    width: 400px;
+    height: 200px;
+    padding: 50px;;
+    padding-left: 110px;
+    border: 1px solid gray;
+}
+
+.resultadoAlta p {
+    font-size: 20px;
+    font-weight: bold;
+}
